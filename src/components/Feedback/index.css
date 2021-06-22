@@ -1,0 +1,74 @@
+.bg-div {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-div {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 450px;
+  max-height: 400px;
+}
+
+@media and screen (min-width: 768px) {
+  .content-div {
+    min-width: 500px;
+    min-height: 400px;
+    max-width: 650px;
+    max-height: 500px;
+  }
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0f172a;
+  text-align: center;
+  padding: 10px;
+  margin: 10px, 0, 20px, 0;
+  width: 240px;
+  max-width: 350px;
+}
+
+.emojis-div {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px, 0px, 10px, 0px;
+}
+
+.emoji {
+  list-style: none;
+  padding: 8px;
+  margin: 6px;
+  text-align: center;
+}
+
+img {
+  height: 45px;
+  margin: 5px;
+}
+
+.emoji-name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1e293b;
+  margin: 5px;
+}
+
+.feedback-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1e293b;
+  margin: 10px;
+  text-align: center;
+}
